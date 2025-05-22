@@ -11,7 +11,10 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Header />
-      <App />
+      <div className='app-container'>
+        <App />
+      </div>
+      
 
     </BrowserRouter>
   </React.StrictMode>
