@@ -21,8 +21,6 @@ const Cards = () => {
             <div className={cardsStyles.caption}>Deals on bananas</div>
             <img className={cardsStyles.banana} src={bananaImg} alt="" />
             </div>
-
-
         </div>
     )
 }
